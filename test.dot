@@ -1,0 +1,6 @@
+strict graph G {
+	0 -- 557	[weight=45];
+	0 -- 596	[weight=30];
+	0 -- 802	[weight=86];
+	802 -- 817	[weight=92];
+}

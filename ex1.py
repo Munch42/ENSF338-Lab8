@@ -6,7 +6,6 @@ class Graph:
         if index >= len(self.nodes):
             self.nodes.extend([None] * (index - len(self.nodes) + 1))
         self.nodes[index] = node
-        print(node)
 
     def addNode(self, data, index=None):
         if index is None:
