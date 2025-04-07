@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 """
 1. Two of the possible ways to implement this queue can be an array that is searched using linear search resulting in an O(n^2) complexity or a Min Heap which allows for much faster 
-access to the minimum edge weight node. If you use this min heap, the complexity imporves to O((|E| + |V|) log|V|) or basically O(nlog(n))
+access to the minimum edge weight node. If you use this min heap, the complexity improves to O((|E| + |V|) log|V|) or basically O(nlog(n))
 """
 
 class Graph:
